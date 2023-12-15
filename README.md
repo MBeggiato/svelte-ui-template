@@ -4,7 +4,7 @@
  </h1>
 </p>
 
-Simple skeleton project for svelte using:<br>
+Simple skeleton project for sveltekit using:<br>
 - [tailwind](https://tailwindcss.com) <img height="15" src="https://user-images.githubusercontent.com/25181517/202896760-337261ed-ee92-4979-84c4-d4b829c7355d.png">
 - [skeleton](https://github.com/skeletonlabs/skeleton) <img height="15" src="https://avatars.githubusercontent.com/u/118298875?s=48&v=4">
 - [shadcn-svelte](https://github.com/huntabyte/shadcn-svelte) <img height="15" src="https://raw.githubusercontent.com/huntabyte/shadcn-svelte/main/apps/www/static/android-chrome-192x192.png">

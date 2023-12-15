@@ -5,6 +5,10 @@
 	import { AppShell, AppBar, Avatar } from '@skeletonlabs/skeleton';
 </script>
 
+<svelte:head>
+	<title>mbeggiato/svelte-ui-template</title>
+	<html lang="en" />
+</svelte:head>
 <!-- App Shell -->
 <AppShell>
 	<svelte:fragment slot="header">
