@@ -2,7 +2,7 @@
 	import { Button } from '$lib/components/ui/button';
 	import { Input } from '$lib/components/ui/input';
 	import '../app.postcss';
-	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
+	import { AppShell, AppBar, Avatar } from '@skeletonlabs/skeleton';
 </script>
 
 <!-- App Shell -->
@@ -11,7 +11,7 @@
 		<!-- App Bar -->
 		<AppBar>
 			<svelte:fragment slot="lead">
-				<strong class="text-xl uppercase">Skeleton+</strong>
+				<strong class="text-xl uppercase">svelte-ui-template</strong>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<form class="flex w-full max-w-sm items-center space-x-2">
@@ -20,27 +20,15 @@
 				</form>
 				<a
 					class="btn btn-sm variant-ghost-surface"
-					href="https://discord.gg/EXqV7W8MtY"
+					href="https://github.com/MBeggiato/svelte-ui-template"
 					target="_blank"
 					rel="noreferrer"
 				>
-					Discord
-				</a>
-				<a
-					class="btn btn-sm variant-ghost-surface"
-					href="https://twitter.com/SkeletonUI"
-					target="_blank"
-					rel="noreferrer"
-				>
-					Twitter
-				</a>
-				<a
-					class="btn btn-sm variant-ghost-surface"
-					href="https://github.com/skeletonlabs/skeleton"
-					target="_blank"
-					rel="noreferrer"
-				>
-					GitHub
+					<Avatar
+						src="https://user-images.githubusercontent.com/25181517/192108374-8da61ba1-99ec-41d7-80b8-fb2f7c0a4948.png"
+						width="w-8"
+						rounded="rounded-full"
+					/>
 				</a>
 			</svelte:fragment>
 		</AppBar>
